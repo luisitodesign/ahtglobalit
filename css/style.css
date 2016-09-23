@@ -1,0 +1,144 @@
+.baloo {
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 1.8em;
+    line-height: 160%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Baloo Chettan', cursive;
+}
+
+.darker {
+    color: #052D5A;
+}
+
+.darkerbg {
+    background-color: #052D5A;
+}
+
+.dark {
+    color: #093C75;
+}
+
+.darkbg {
+    background-color: #093C75;
+}
+
+.light {
+    color: #2B63A2;
+}
+
+.lightbg {
+    background-color: #2B63A2;
+}
+
+.lighter {
+    color: #4A7AB0;
+}
+
+.lighterbg {
+    background-color: #4A7AB0;
+}
+
+.orange {
+    color: #DE5308;
+}
+
+.orangebg {
+    background-color: #DE5308;
+}
+
+.yellow {
+    color: #DEAE08;
+}
+
+.yellowbg {
+    background-color: #DEAE08;
+}
+
+.green {
+    color: #059368;
+}
+
+.greenbg {
+    background-color: #059368;
+}
+
+.blue {
+    color: #104c91;
+}
+
+.bluebg {
+    background-color: #104c91;
+}
+
+.red {
+    color: #9e213a;
+}
+
+.redbg {
+    background-color: #9e213a;
+}
+
+.white {
+    color: whitesmoke;
+}
+
+.whitebg {
+    background-color: whitesmoke;
+}
+.greenlt{
+    color: #21A37C;
+}
+.greenltbg{
+    background-color: #21A37C;
+}
+.welcome {
+    height: 40em;
+    margin-top: -20px;
+    background: url(../images/racks.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0 100px;}
+}
+.welcome-head {
+    margin-top: 20em;
+}
+
+.servbox {
+    height: 15em;
+    display: block;
+}
+.about {
+    height: 20em;
+}
+.contact {
+    position: inherit;
+}
+.contactbox {
+    padding: 2em 2em 2em 2em;
+}
+.contactinfo{
+    margin-top: 10px;
+}
+.footer {
+    padding: 2em 2em 2em 2em;
+    height: 200px;
+}
+
+.navi-social {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-top: -3em;
+}
