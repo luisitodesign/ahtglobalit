@@ -28,7 +28,7 @@
                     <span class="glyphicon glyphicon-align-justify"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <img class="img-responsive" src="images/ahtlogowhite.png" alt="AHT Global">
+                    <img class="img-responsive" src="images/logowt.png" alt="AHT Global">
                 </a>
             </div>
 
@@ -69,16 +69,63 @@
 
 
 
-    <section class="container-fluid welcome text-center">
+    <section class="container-fluid text-center">
 
-        <div class="row">
+    <!--div class="row">
             <div class="container welcome-head greyltr">
-                <h1 class="orange">Advanced Home Theater</h1>
+                <h1 class="aht-ltr">Advanced Home Theater</h1>
                 <p>We don't break stuff, I swear! Well, we might, but we'll blame the other guys.</p>
             </div>
-        </div>
+        </div-->
 
-    </section>
+
+    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <!-- Overlay -->
+        <div class="overly"></div>
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#bs-carousel" data-slide-to="1"></li>
+            <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item slides active">
+                <div class="slide-1"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1 class="green">Residential</h1>
+                        <h3 class="greylt">Stuff for your home</h3>
+                    </hgroup>
+                    <button class="btn btn-hero btn-lg" role="button">MORE</button>
+                </div>
+            </div>
+            <div class="item slides">
+                <div class="slide-2"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1 class="green">Marine</h1>
+                        <h3 class="greylt">Stuff for your boat</h3>
+                    </hgroup>
+                    <button class="btn btn-hero btn-lg" role="button">MORE</button>
+                </div>
+            </div>
+            <div class="item slides">
+                <div class="slide-3"></div>
+                <div class="hero">
+                    <hgroup>
+                        <h1 class="green">Commercial</h1>
+                        <h3 class="greylt">Stuff for your business</h3>
+                    </hgroup>
+                    <button class="btn btn-hero btn-lg" role="button">MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 
 
@@ -90,30 +137,42 @@
         </div-->
         <div class="row maintext text-center greyltr aht-lt">
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">Automation</h2>
-                <p>We do this pretty damn well on most days, unless Chris is the tech.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">Audio/Video</h2>
-                <p>We do this pretty good I guess, not great but decent enough that you won't know the difference.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">Lighting Design</h2>
-                <p>We actually don't do this but we'll charge you for it anyway.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">IT Networks</h2>
-                <p>We did this already. Check your damn email and leave me alone.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">Security</h2>
-                <p>We just really don't wanna do this, even though we should.</p>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox">
-                <h2 class="orange">Installation</h2>
-                <p id="about">We really like doing this, but we can't wear pants during this process so give us a little privacy.</p>
-            </div>
+            <a href="automation.html">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-auto">
+                    <h2>Automation</h2>
+                    <p>We do this pretty damn well on most days, unless Chris is the tech.</p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-av">
+                    <h2>Audio/Video</h2>
+                    <p>We do this pretty good I guess, not great but decent enough that you won't know the difference.</p>
+                </div>
+            </a>
+            <a>   
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-light">
+                    <h2>Lighting Design</h2>
+                    <p>We actually don't do this but we'll charge you for it anyway.</p>
+                </div>
+            </a>
+            <a>   
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-it">
+                    <h2>IT Networks</h2>
+                    <p>We did this already. Check your damn email and leave me alone.</p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-security">
+                    <h2>Security</h2>
+                    <p>We just really don't wanna do this, even though we should.</p>
+                </div>
+            </a>
+            <a>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 aht-dkrbg servbox-install">
+                    <h2>Installation</h2>
+                    <p id="about">We really like doing this, but we can't wear pants during this process so give us a little privacy.</p>
+                </div>
+            </a>
         </div>
 
     </section>
@@ -121,12 +180,6 @@
 
 
     <section class="container-fluid about">
-
-        <!--div class="row">
-            <div class="col-md-12">
-                <h1 class="white text-center">ABOUT</h1>
-            </div-->
-        </div>
 
         <div class="row padding">
             <!-- <div class="hidden-xs col-sm-8 col-md-8 pull-left aboutimg">
@@ -139,67 +192,31 @@
                 </p>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-4">
-                <a href="http://www.ahtglobal.com"></a>
-            </div>
-            <div class="col-xs-12 col-sm-4">
-
-            </div>
-            <div class="col-xs-12 col-sm-4">
-
-            </div>
-        </div>
-
-
     </section>
-
 
 
     <section class="container-fluid contact greydkrbg">
 
-    <div class="row" id="contact">
-        <div class="col-sm-6 text-right white padding">
-            <h2 class="orange">You're Gonna Call, Right?
+        <div class="row" id="contact">
+            <div class="col-sm-6 text-right white padding">
+                <h2 class="orange">You're Gonna Call, Right?
                 <br>Nah, you won't call...
-                </h2>
-            <p>Contact us already so we can set up all the shit you want!
-                <br>Our customer service rep, Freddy, is just a call away and available 24/7!
-            </p>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <form role="form" action="" method="post">
-                    <div class="col-sm-6 padding">
-                        <div class="form-group">
-                            <label class="white" for="InputName">Your Name</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="white" for="InputEmail">Your Email</label>
-                            <div class="input-group">
-                                <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-                        </div>
-                        <div class="form-group">
-                            <label class="white" for="InputMessage">Message</label>
-                            <div class="input-group">
-                                <textarea name="InputMessage" id="InputMessage" class="form-control" rows="8" required></textarea>
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
-                        </div>
-                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right orangebg">
-                    </div>
-                </form>
-
+            </h2>
+                <p>Contact us already so we can set up all the shit you want!
+                    <br>Our customer service rep, Freddy, is just a call away and available 24/7!
+                </p>
             </div>
-
+            
+            <div class="col-sm-6 text-left">
+                <form id="form" class="topBefore">
+                    <input id="name" type="text" placeholder="NAME">
+                    <input id="email" type="text" placeholder="E-MAIL">
+                        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                    <input id="submit" type="submit" value="GO!">
+                </form>
+            </div>
         </div>
-    </div>
-    </div>
-</section>
+    </section>
 
     <section class="container-fluid blackbg">
 
@@ -210,21 +227,21 @@
                     <br> New York: (212) 203-8633
                     <br> Philadelphia: (215) 966-8626
                 </p>
-            <div class="col-xs-6 pull-right text-right">
-                <div class="navbar-text pull-right navi-social">
-                    <a href="https://www.facebook.com/pages/Advanced-Home-Theater-Inc/197978403555764" title="Facebook">    <i class="fa fa-facebook aht social"></i>
-                    </a>
-                    <a href="https://twitter.com/AHTGlobal" title="Twitter">
-                        <i class="fa fa-twitter aht social"></i>
-                    </a>
-                    <a href="http://www.linkedin.com/company/advanced-home-theater" title="Linkedin">
-                        <i class="fa fa-linkedin aht social"></i>
-                    </a>
-                    <a href="http://www.youtube.com/user/AHTAutomation?feature=mhee#p/a/u/0/jETSJn-hlaU" title="YouTube">    <i class="fa fa-youtube aht social"></i>
-                    </a>
-                </div>
+                <div class="col-xs-6 pull-right text-right">
+                    <div class="navbar-text pull-right navi-social">
+                        <a href="https://www.facebook.com/pages/Advanced-Home-Theater-Inc/197978403555764" title="Facebook"> <i class="fa fa-facebook aht social"></i>
+                        </a>
+                        <a href="https://twitter.com/AHTGlobal" title="Twitter">
+                            <i class="fa fa-twitter aht social"></i>
+                        </a>
+                        <a href="http://www.linkedin.com/company/advanced-home-theater" title="Linkedin">
+                            <i class="fa fa-linkedin aht social"></i>
+                        </a>
+                        <a href="http://www.youtube.com/user/AHTAutomation?feature=mhee#p/a/u/0/jETSJn-hlaU" title="YouTube"> <i class="fa fa-youtube aht social"></i>
+                        </a>
+                    </div>
             </footer>
-        </div>
+            </div>
         </div>
 
     </section>
